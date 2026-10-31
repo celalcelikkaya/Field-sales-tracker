@@ -28,30 +28,30 @@ The demo runs the real backend inside your browser with sample data. Nothing is 
 
 | Receivables | Customers |
 |---|---|
-| ![Receivables](screenshots/04-receivables-light.png) | ![Customers](screenshots/05-customers-light.png) |
+| ![Receivables](https://github.com/celalcelikkaya/Field-sales-tracker/blob/main/04-receivables-light.png) | ![Customers](https://github.com/celalcelikkaya/Field-sales-tracker/blob/main/05-customers-light.png) |
 
 | Trace any ID | Customer history |
 |---|---|
-| ![Trace](screenshots/06-trace-light.png) | ![History](screenshots/07-customer-history-light.png) |
+| ![Trace](https://github.com/celalcelikkaya/Field-sales-tracker/blob/main/06-trace-light.png) | ![History](https://github.com/celalcelikkaya/Field-sales-tracker/blob/main/07-customer-history-light.png) |
 
 | Allocate a payment to specific sales | Settings, audit trail and reset |
 |---|---|
-| ![Allocation](screenshots/08-payment-allocation-light.png) | ![Settings](screenshots/09-settings-light.png) |
+| ![Allocation](https://github.com/celalcelikkaya/Field-sales-tracker/blob/main/08-payment-allocation-light.png) | ![Settings](https://github.com/celalcelikkaya/Field-sales-tracker/blob/main/09-settings-light.png) |
 
 **Dark mode, setup wizard and the reset dialog**
 
 | Dashboard (dark) | Setup wizard | Reset data |
 |---|---|---|
-| ![Dark](screenshots/03-dashboard-dark.png) | ![Wizard](screenshots/11-setup-wizard-light.png) | ![Reset](screenshots/10-reset-dark.png) |
+| ![Dark](https://github.com/celalcelikkaya/Field-sales-tracker/blob/main/03-dashboard-dark.png) | ![Wizard](https://github.com/celalcelikkaya/Field-sales-tracker/blob/main/11-setup-wizard-light.png) | ![Reset](https://github.com/celalcelikkaya/Field-sales-tracker/blob/main/10-reset-dark.png) |
 
 **On the phone**
 
 <p>
-  <img src="screenshots/12-salesman-home-mobile.png" width="19%">
-  <img src="screenshots/13-new-sale-mobile.png" width="19%">
-  <img src="screenshots/14-duplicate-check-mobile.png" width="19%">
-  <img src="screenshots/15-todays-sales-mobile.png" width="19%">
-  <img src="screenshots/16-take-payment-mobile.png" width="19%">
+  <img src="https://github.com/celalcelikkaya/Field-sales-tracker/blob/main/12-salesman-home-mobile.png" width="19%">
+  <img src="https://github.com/celalcelikkaya/Field-sales-tracker/blob/main/13-new-sale-mobile.png" width="19%">
+  <img src="https://github.com/celalcelikkaya/Field-sales-tracker/blob/main/14-duplicate-check-mobile.png" width="19%">
+  <img src="https://github.com/celalcelikkaya/Field-sales-tracker/blob/main/15-todays-sales-mobile.png" width="19%">
+  <img src="https://github.com/celalcelikkaya/Field-sales-tracker/blob/main/16-take-payment-mobile.png" width="19%">
 </p>
 
 ## Install (about 5 minutes)
