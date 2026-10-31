@@ -4,7 +4,7 @@ A field-sales tracker for distributors and small businesses. Salesmen record sal
 
 It runs on **Google Apps Script + Google Sheets**: no server to rent, no database to manage, and your data stays in your own Google Drive.
 
-## ▶ [Try the live demo](https://github.com/celalcelikkaya/celalcelikkaya.github.io/blob/main/demo-field-sales.html) &nbsp;|&nbsp; 📥 [Download v1.0.0 (ZIP)](https://github.com/celalcelikkaya/Field-sales-tracker/releases/download/v1.0.0/sales-dashboard-v1.0.0.zip)
+## ▶ [Try the live demo](https://celalcelikkaya.github.io/demo-field-sales.html) &nbsp;|&nbsp; 📥 [Download v1.0.0 (ZIP)](https://github.com/celalcelikkaya/Field-sales-tracker/releases/download/v1.0.0/sales-dashboard-v1.0.0.zip)
 
 
 The demo runs the real backend inside your browser with sample data. Nothing is sent anywhere. Admin PIN **1234**, salesman PIN **1111**. Reload the page to reset it.
