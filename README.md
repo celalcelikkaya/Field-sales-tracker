@@ -1,4 +1,4 @@
-# Sales Dashboard
+# Field Sales Dashboard
 
 A field-sales tracker for distributors and small businesses. Salesmen record sales from their phones, the owner sees everything live, and **every sale, credit and payment is linked** — so you always know who bought what, who still owes, and which payment settled which sale.
 
