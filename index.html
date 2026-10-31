@@ -332,7 +332,9 @@
 
   /* demo extras */
   .demohint{margin-top:12px;padding:9px 12px;border-radius:12px;background:var(--brand-soft);color:var(--brand);font-size:12.5px;line-height:1.5}
-  #demoChip{position:fixed;right:12px;bottom:12px;z-index:120;display:flex;align-items:center;gap:8px;background:var(--ink);color:var(--bg);padding:6px 6px 6px 13px;border-radius:999px;font-size:12px;font-weight:600;box-shadow:0 6px 20px rgba(0,0,0,.25);opacity:.94}
+  #demoChip{position:fixed;right:12px;bottom:12px;z-index:120;display:flex;align-items:center;gap:8px;background:var(--ink);color:var(--bg);padding:6px;border-radius:999px;font-size:12px;font-weight:600;box-shadow:0 6px 20px rgba(0,0,0,.25);opacity:.94}
+  #demoChip a{color:inherit;text-decoration:none;padding:5px 11px;border-radius:999px;box-shadow:inset 0 0 0 1px rgba(128,128,128,.55);white-space:nowrap}
+  #demoChip a:hover{box-shadow:inset 0 0 0 1px currentColor}
   #demoChip button{border:0;border-radius:999px;padding:5px 11px;background:var(--brand);color:#fff;font-weight:600;cursor:pointer}
   @media (max-width:899px){#demoChip{bottom:86px}}
 </style>
@@ -771,9 +773,10 @@ if (typeof module !== 'undefined') module.exports = { seedDemo };
   function logo() {
     try {
       const c = document.createElement('canvas'); c.width = c.height = 128; const x = c.getContext('2d');
-      const g = x.createLinearGradient(0, 0, 128, 128); g.addColorStop(0, '#2563eb'); g.addColorStop(1, '#7c3aed');
-      x.fillStyle = g; x.beginPath(); const r = 30; x.moveTo(r, 0); x.arcTo(128, 0, 128, 128, r); x.arcTo(128, 128, 0, 128, r); x.arcTo(0, 128, 0, 0, r); x.arcTo(0, 0, 128, 0, r); x.fill();
-      x.fillStyle = '#fff'; x.font = '700 78px Inter, Arial, sans-serif'; x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillText('D', 64, 70);
+      x.fillStyle = '#2f86e0'; x.beginPath(); const r = 30; x.moveTo(r, 0); x.arcTo(128, 0, 128, 128, r); x.arcTo(128, 128, 0, 128, r); x.arcTo(0, 128, 0, 0, r); x.arcTo(0, 0, 128, 0, r); x.fill();
+      x.strokeStyle = '#fff'; x.lineWidth = 11; x.lineCap = 'round'; x.beginPath();
+      [[32, 88, 69], [53, 88, 45], [75, 88, 59], [96, 88, 35]].forEach(function (b) { x.moveTo(b[0], b[1]); x.lineTo(b[0], b[2]); });
+      x.stroke();
       return c.toDataURL('image/png');
     } catch (e) { return ''; }
   }
@@ -786,7 +789,7 @@ if (typeof module !== 'undefined') module.exports = { seedDemo };
   const box = document.querySelector('#login .box');
   if (box) { const h = document.createElement('div'); h.className = 'demohint'; h.innerHTML = 'Try it: <b>Admin</b> PIN 1234 · <b>Salesman</b> PIN 1111'; box.appendChild(h); }
   if (hash === 'wizard') { const k = document.getElementById('wKey'); if (k) k.value = info.key; }
-  const chip = document.createElement('div'); chip.id = 'demoChip'; chip.innerHTML = '<span>Live demo</span><button type="button" onclick="location.reload()">Reset</button>'; document.body.appendChild(chip);
+  const chip = document.createElement('div'); chip.id = 'demoChip'; chip.innerHTML = '<a href="./" aria-label="Back to portfolio">&larr; Portfolio</a><span>Live demo</span><button type="button" onclick="location.reload()">Reset</button>'; document.body.appendChild(chip);
 })();
 </script>
 <script>
